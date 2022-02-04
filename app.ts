@@ -1,23 +1,23 @@
-function add(n1:number,n2:number, showResult:boolean,phrase:string){
-  // console.log(typeof n1)
-  // if(typeof n1 !== 'number' || typeof n2 !== 'number'){
-  //   throw new Error("not number")
+const button = document.querySelector('button')!;
+button?.addEventListener('click',()=>{
+  console.log('clicked')
+});
 
-  // }
-  const result = n1 + n2;
-  if(showResult){
-    console.log( phrase + result)
-  } else{
+// let userInput : unknown;
+// // let userInput : any;
+// let userName : string;
+// userInput =5;
+// userInput ="noor";
 
-    return result;
-  }
+// if(typeof userInput ==='string'){
 
-}
+//   userName = userInput;
+//   console.log(userName)
+// };
 
-const nubmer1 = 5 ;
-const nubmer2 = 2.8;
-const printResult = true;
-const resultPhrase = 'result is :'
-const result = add(nubmer1 , nubmer2, printResult , resultPhrase);
-// console.log(result);
-
+// function generateError(message: string , code: number): never{
+//   throw {message:message , errorCode:code};
+// }
+//  const result = generateError('an error occureed',500)
+// generateError('an error occureed',500)
+//  console.log(result)
